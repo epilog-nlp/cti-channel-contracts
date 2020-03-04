@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Cti.Models</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Description>Contains models common across all CTI Protocols.</Description>
+    <PackageTags>Models Protocols CTI</PackageTags>
+  </PropertyGroup>
+  
+</Project>

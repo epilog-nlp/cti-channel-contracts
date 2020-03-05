@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Cti.Models.Config</RootNamespace>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Description>Contains models related to Genesys Configuration.</Description>
+    <PackageTags>Models Protocols CTI Config Genesys</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cti.Genesys.Models\Cti.Genesys.Models.csproj" />
+  </ItemGroup>
+
+</Project>

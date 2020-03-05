@@ -3,12 +3,14 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cti.Genesys.Models", "Cti.Genesys.Models\Cti.Genesys.Models.csproj", "{6476CACA-A238-49F2-B100-0626A29003C3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cti.Genesys.Models", "Cti.Genesys.Models\Cti.Genesys.Models.csproj", "{6476CACA-A238-49F2-B100-0626A29003C3}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8239C339-590F-4913-8DA6-01E7A952B246}"
 	ProjectSection(SolutionItems) = preProject
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cti.Genesys.Models.Config", "Cti.Genesys.Models.Config\Cti.Genesys.Models.Config.csproj", "{DCC9A294-28C6-4A79-B725-D37473BE9B8C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -20,6 +22,10 @@ Global
 		{6476CACA-A238-49F2-B100-0626A29003C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6476CACA-A238-49F2-B100-0626A29003C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6476CACA-A238-49F2-B100-0626A29003C3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCC9A294-28C6-4A79-B725-D37473BE9B8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCC9A294-28C6-4A79-B725-D37473BE9B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCC9A294-28C6-4A79-B725-D37473BE9B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCC9A294-28C6-4A79-B725-D37473BE9B8C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

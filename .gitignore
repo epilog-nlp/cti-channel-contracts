@@ -6,3 +6,5 @@
 /src/Protocols/Cti.Genesys.Models/obj
 /src/Protocols/.vs/Protocols
 /src/Protocols/nuget.config
+/src/Protocols/Cti.Genesys.Models.Config/bin/Debug/netstandard2.0
+/src/Protocols/Cti.Genesys.Models.Config/obj

@@ -6,7 +6,7 @@ namespace Cti.Models
     /// <summary>
     /// Represents an Event received from a Genesys API.
     /// </summary>
-    public interface IServerEvent
+    public interface IServerEvent : IGenesysObject
     {
         /// <summary>
         /// Name of the Genesys Event.

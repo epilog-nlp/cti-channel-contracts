@@ -8,3 +8,7 @@
 /src/Protocols/nuget.config
 /src/Protocols/Cti.Genesys.Models.Config/bin/Debug/netstandard2.0
 /src/Protocols/Cti.Genesys.Models.Config/obj
+/src/Protocols/Cti.Genesys.Models/bin/Release
+/src/Protocols/Cti.Genesys.Models.Config/bin/Release/netstandard2.0
+/src/Protocols/Cti.Genesys.Models.Config/bin/Release/Cti.Genesys.Models.Config.0.0.1-alpha.snupkg
+*.nupkg

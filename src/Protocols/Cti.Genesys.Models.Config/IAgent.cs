@@ -37,7 +37,7 @@ namespace Cti.Models.Config
     }
 
     /// <summary>
-    /// Represents a Genesys Config Server
+    /// Represents a Genesys Config Server association between Agent and Login.
     /// </summary>
     public interface IAgentLoginAssociation : IGenesysObject
     {

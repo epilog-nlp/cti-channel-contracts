@@ -11,6 +11,6 @@ namespace Cti.Models.Config
         /// <summary>
         /// DBID of the connected <see cref="IApplication"/>.
         /// </summary>
-        int AppServerDbid { get; set; }
+        int AppServerDbid { get; }
     }
 }

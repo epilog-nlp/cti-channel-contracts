@@ -7,7 +7,7 @@ namespace Cti.Protocols.Contracts
     /// Base type for all items that expose CTI functionality.
     /// Domain visible contracts will implement this interface, while the specialized implementations will use the generic version.
     /// </summary>
-    public interface ICtiProvider
+    public interface ICtiFeature
     {
         /// <summary>
         /// Name used to distinguish implementations sharing the same contract signature.
@@ -19,13 +19,13 @@ namespace Cti.Protocols.Contracts
     /// Represents a Request Handler that delegates requests to a protocol of type <typeparamref name="TProvider"/>.
     /// </summary>
     /// <typeparam name="TProvider">The protocol capable of handling requests.</typeparam>
-    public interface ICtiProvider<TProvider> : ICtiProvider
+    public interface ICtiFeature<TProvider> : ICtiFeature
     {
         /// <summary>
         /// Creates an instance of this Request Handler using the provided <paramref name="protocol"/>.
         /// </summary>
         /// <param name="protocol">The provider this Request Handler delegates requests to.</param>
         /// <returns>An instance of this Request Handler, created using the provided <paramref name="protocol"/>.</returns>
-        ICtiProvider Create(TProvider protocol);
+        ICtiFeature Create(TProvider protocol);
     }
 }

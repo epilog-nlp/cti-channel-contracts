@@ -4,9 +4,9 @@
 namespace Cti.Protocols.Contracts
 {
     /// <summary>
-    /// Represents a factory capable of resolving and instantiating implementations of an <see cref="IRequestHandler"/> contract.
+    /// Represents a factory capable of resolving and instantiating implementations of an <see cref="ICtiProvider"/> contract.
     /// </summary>
-    public interface IRequestHandlerFactory
+    public interface ICtiProviderFactory
     {
         /// <summary>
         /// Discovers and instantiates an implementation of the provided <typeparamref name="THandler"/> contract with an optional <paramref name="name"/>.
@@ -15,6 +15,6 @@ namespace Cti.Protocols.Contracts
         /// <param name="name">An optional contract name.</param>
         /// <returns>An implementation of the provided <typeparamref name="THandler"/> contract, if it exists.</returns>
         THandler Resolve<THandler>(string name = "")
-            where THandler : IRequestHandler;
+            where THandler : ICtiProvider;
     }
 }

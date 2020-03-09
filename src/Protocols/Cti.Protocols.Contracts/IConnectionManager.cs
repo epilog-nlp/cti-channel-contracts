@@ -8,7 +8,7 @@ namespace Cti.Protocols.Contracts
     /// <summary>
     /// Represents an object that can view and manage the state of a Protocol connection.
     /// </summary>
-    public interface IConnectionManager : IRequestHandler
+    public interface IConnectionManager : ICtiProvider
     {
         // TODO - Opened/Closed Events
         // TODO - State Indirection
@@ -31,7 +31,7 @@ namespace Cti.Protocols.Contracts
     /// Represents an object that can view and manage the state of a <typeparamref name="TProvider"/> connection.
     /// </summary>
     /// <typeparam name="TProvider">The Provider whose connection to manage.</typeparam>
-    public interface IConnectionManager<TProvider> : IConnectionManager, IRequestHandler<TProvider>
+    public interface IConnectionManager<TProvider> : IConnectionManager, ICtiProvider<TProvider>
     {
 
     }

@@ -10,7 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		Directory.Build.props = Directory.Build.props
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cti.Genesys.Models.Config", "Cti.Genesys.Models.Config\Cti.Genesys.Models.Config.csproj", "{DCC9A294-28C6-4A79-B725-D37473BE9B8C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cti.Genesys.Models.Config", "Cti.Genesys.Models.Config\Cti.Genesys.Models.Config.csproj", "{DCC9A294-28C6-4A79-B725-D37473BE9B8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cti.Protocols.Contracts", "Cti.Protocols.Contracts\Cti.Protocols.Contracts.csproj", "{A893AD8E-7446-4EC1-8958-CE1AA1D59A09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{33708BA9-4312-4EB7-B2C1-68FD0682706D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -26,9 +30,17 @@ Global
 		{DCC9A294-28C6-4A79-B725-D37473BE9B8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DCC9A294-28C6-4A79-B725-D37473BE9B8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DCC9A294-28C6-4A79-B725-D37473BE9B8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A893AD8E-7446-4EC1-8958-CE1AA1D59A09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A893AD8E-7446-4EC1-8958-CE1AA1D59A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A893AD8E-7446-4EC1-8958-CE1AA1D59A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A893AD8E-7446-4EC1-8958-CE1AA1D59A09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6476CACA-A238-49F2-B100-0626A29003C3} = {33708BA9-4312-4EB7-B2C1-68FD0682706D}
+		{DCC9A294-28C6-4A79-B725-D37473BE9B8C} = {33708BA9-4312-4EB7-B2C1-68FD0682706D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {33FF1687-A324-44F4-8018-6C9F0BF10CF8}

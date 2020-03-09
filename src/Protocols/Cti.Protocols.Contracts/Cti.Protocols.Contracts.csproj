@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Description>Contains Contracts for CTI functionality exposed to consumers.</Description>
+    <PackageTags>Contracts CTI Protocols</PackageTags>
+  </PropertyGroup>
+
+</Project>

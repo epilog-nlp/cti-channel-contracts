@@ -22,7 +22,7 @@ namespace Cti.Protocols.Contracts
     public interface ICtiFeature<TProvider> : ICtiFeature
     {
         /// <summary>
-        /// Creates an instance of this Request Handler using the provided <paramref name="protocol"/>.
+        /// Creates an instance of this CTI Feature using the provided <paramref name="protocol"/>.
         /// </summary>
         /// <param name="protocol">The provider this Request Handler delegates requests to.</param>
         /// <returns>An instance of this Request Handler, created using the provided <paramref name="protocol"/>.</returns>

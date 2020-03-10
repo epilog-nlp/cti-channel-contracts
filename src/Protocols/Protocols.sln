@@ -12,9 +12,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cti.Genesys.Models.Config", "Cti.Genesys.Models.Config\Cti.Genesys.Models.Config.csproj", "{DCC9A294-28C6-4A79-B725-D37473BE9B8C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cti.Protocols.Contracts", "Cti.Protocols.Contracts\Cti.Protocols.Contracts.csproj", "{A893AD8E-7446-4EC1-8958-CE1AA1D59A09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cti.Protocols.Contracts", "Cti.Protocols.Contracts\Cti.Protocols.Contracts.csproj", "{A893AD8E-7446-4EC1-8958-CE1AA1D59A09}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{33708BA9-4312-4EB7-B2C1-68FD0682706D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cti.Genesys.Repos.Contracts", "Cti.Genesys.Repos.Contracts\Cti.Genesys.Repos.Contracts.csproj", "{39C003D1-95DA-412C-B0B4-860EA9D1953B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cti.Genesys.Repos.Contracts.Config", "Cti.Genesys.Repos.Contracts.Config\Cti.Genesys.Repos.Contracts.Config.csproj", "{29B6B76D-50B2-4D53-8DFB-0E44A6B28C4B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -34,6 +38,14 @@ Global
 		{A893AD8E-7446-4EC1-8958-CE1AA1D59A09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A893AD8E-7446-4EC1-8958-CE1AA1D59A09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A893AD8E-7446-4EC1-8958-CE1AA1D59A09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39C003D1-95DA-412C-B0B4-860EA9D1953B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39C003D1-95DA-412C-B0B4-860EA9D1953B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39C003D1-95DA-412C-B0B4-860EA9D1953B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39C003D1-95DA-412C-B0B4-860EA9D1953B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29B6B76D-50B2-4D53-8DFB-0E44A6B28C4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29B6B76D-50B2-4D53-8DFB-0E44A6B28C4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29B6B76D-50B2-4D53-8DFB-0E44A6B28C4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29B6B76D-50B2-4D53-8DFB-0E44A6B28C4B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

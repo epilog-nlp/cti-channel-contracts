@@ -13,3 +13,6 @@
 /src/Protocols/Cti.Genesys.Models.Config/bin/Release/Cti.Genesys.Models.Config.0.0.1-alpha.snupkg
 *.nupkg
 /src/Protocols/Cti.Protocols.Contracts/obj
+/src/Protocols/Cti.Genesys.Repos.Contracts/obj
+/src/Protocols/Cti.Genesys.Repos.Contracts.Config/obj
+/src/Protocols/Cti.Protocols.Contracts/bin/Release

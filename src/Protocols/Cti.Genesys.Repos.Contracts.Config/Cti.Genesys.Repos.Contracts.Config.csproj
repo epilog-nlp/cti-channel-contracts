@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>Cti.Repos.Config</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cti.Genesys.Models.Config\Cti.Genesys.Models.Config.csproj" />
+    <ProjectReference Include="..\Cti.Genesys.Repos.Contracts\Cti.Genesys.Repos.Contracts.csproj" />
+  </ItemGroup>
+
+</Project>

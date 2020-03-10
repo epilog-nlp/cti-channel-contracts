@@ -16,3 +16,7 @@
 /src/Protocols/Cti.Genesys.Repos.Contracts/obj
 /src/Protocols/Cti.Genesys.Repos.Contracts.Config/obj
 /src/Protocols/Cti.Protocols.Contracts/bin/Release
+/src/Protocols/Cti.Genesys.Models.Config/bin/Release
+/src/Protocols/Cti.Genesys.Repos.Contracts/bin/Release
+/src/Protocols/Cti.Genesys.Repos.Contracts.Config/bin/Release/netstandard2.0
+/src/Protocols/Cti.Genesys.Repos.Contracts.Config/bin/Release/Cti.Genesys.Repos.Contracts.Config.0.0.1-beta.snupkg

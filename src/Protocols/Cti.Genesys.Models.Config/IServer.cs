@@ -11,7 +11,7 @@ namespace Cti.Models.Config
         /// <summary>
         /// The Host where the Server resides.
         /// </summary>
-        int HostDbid { get; set; }
+        int? HostDbid { get; set; }
 
         /// <summary>
         /// The port exposing the Server.
@@ -21,6 +21,6 @@ namespace Cti.Models.Config
         /// <summary>
         /// Application defining the backup Server. Also a Server.
         /// </summary>
-        int BackupServerDbid { get; set; }
+        int? BackupServerDbid { get; set; }
     }
 }

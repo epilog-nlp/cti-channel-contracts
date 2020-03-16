@@ -13,17 +13,17 @@ namespace Cti.Models.Config
         /// <summary>
         /// DBID of the default Place object assigned to the Agent.
         /// </summary>
-        int DefaultPlaceDbid { get; set; }
+        int? DefaultPlaceDbid { get; set; }
 
         /// <summary>
         /// DBID of the Capacity Rule assigned to the Agent.
         /// </summary>
-        int CapacityRuleDbid { get; set; }
+        int? CapacityRuleDbid { get; set; }
 
         /// <summary>
         /// DBID of the Contract assigned to the Agent.
         /// </summary>
-        int ContractDbid { get; set; }
+        int? ContractDbid { get; set; }
 
         /// <summary>
         /// The Agent Logins assigned to this Agent.

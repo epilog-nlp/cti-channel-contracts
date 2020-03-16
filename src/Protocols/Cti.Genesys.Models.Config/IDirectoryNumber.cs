@@ -21,6 +21,6 @@ namespace Cti.Models.Config
         /// <summary>
         /// The DBID of the Switch where this DN resides.
         /// </summary>
-        int SwitchDbid { get; set; }
+        int? SwitchDbid { get; set; }
     }
 }

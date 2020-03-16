@@ -21,7 +21,7 @@ namespace Cti.Models.Config
         /// <summary>
         /// Determines whether LDAP (or equivalent) integration should be used.
         /// </summary>
-        bool UsingExternalAuth { get; set; }
+        bool? UsingExternalAuth { get; set; }
 
         /// <summary>
         /// The Person's first name.
@@ -44,7 +44,7 @@ namespace Cti.Models.Config
         /// <remarks>
         /// If zero, the object will be saved under "Persons" (the default folder).
         /// </remarks>
-        int FolderId { get; set; }
+        int? FolderId { get; set; }
 
         /// <summary>
         /// Full or partial CME object location path.

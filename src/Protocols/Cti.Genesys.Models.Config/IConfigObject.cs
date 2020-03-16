@@ -16,6 +16,6 @@ namespace Cti.Models.Config
         /// <summary>
         /// The parent Tenant DBID of the Config Server object.
         /// </summary>
-        int TenantDbid { get; set; }
+        int? TenantDbid { get; set; }
     }
 }

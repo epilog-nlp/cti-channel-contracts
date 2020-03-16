@@ -5,6 +5,11 @@
     <RootNamespace>Cti.Repos</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup>
+    <Description>Contains contracts for Repositories exposing Genesys objects.</Description>
+    <PackageTags>Repo Repository Protocols CTI Genesys</PackageTags>
+  </PropertyGroup>
+
   <ItemGroup>
     <ProjectReference Include="..\Cti.Genesys.Models\Cti.Genesys.Models.csproj" />
     <ProjectReference Include="..\Cti.Protocols.Contracts\Cti.Protocols.Contracts.csproj" />

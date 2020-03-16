@@ -1,7 +1,7 @@
 <Project>
   <!-- Framework/Version Information -->
   <PropertyGroup>
-    <Version>0.0.1-beta</Version>
+    <Version>0.0.2-alpha</Version>
   </PropertyGroup>
 
   <!-- Debug/Build Concerns -->

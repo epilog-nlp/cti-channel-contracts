@@ -8,7 +8,7 @@ namespace Cti.Repos.Config
     using Models.Config;
 
     /// <summary>
-    /// Represents a repository exposing CRUD operations on Genesys Config Server objects.
+    /// Represents a repository exposing retrieval methods for Genesys Config Server objects by their unique DBID.
     /// </summary>
     /// <typeparam name="TCfgObject">The type of Config Server object.</typeparam>
     public interface IConfigObjectRepo<TCfgObject> : IGenesysRepo
@@ -28,33 +28,5 @@ namespace Cti.Repos.Config
         /// <param name="dbids">A collection of unique DBIDs of the objects to retrieve.</param>
         /// <returns>A collection of Config Server objects matching the provided <paramref name="dbids"/>.</returns>
         IEnumerable<TCfgObject> Get(params int[] dbids);
-
-        /// <summary>
-        /// Creates the provided Config Server object and returns its value.
-        /// </summary>
-        /// <param name="itemToAdd">The item to add.</param>
-        /// <returns>The created Config Server object, with all fields populated.</returns>
-        TCfgObject Add(TCfgObject itemToAdd);
-
-        /// <summary>
-        /// Updates an existing Config Server object and returns its value.
-        /// </summary>
-        /// <param name="itemToUpdate">The existing item, with updated properties.</param>
-        /// <returns>The updated Config Server object, with all fields populated.</returns>
-        TCfgObject Update(TCfgObject itemToUpdate);
-
-        /// <summary>
-        /// Enables a Config Server object with the provided <paramref name="dbid"/>.
-        /// </summary>
-        /// <param name="dbid">The unique DBID of the Config Server object to enable.</param>
-        /// <returns>The value of <see cref="IQueryableConfigObject.Enabled"/> after the operation.</returns>
-        bool Enable(int dbid);
-
-        /// <summary>
-        /// Disables a Config Server object with the provided <paramref name="dbid"/>.
-        /// </summary>
-        /// <param name="dbid">The unique DBID of the Config Server object to disable.</param>
-        /// <returns>The value of <see cref="IQueryableConfigObject.Enabled"/> after the operation.</returns>
-        bool Disable(int dbid);
     }
 }
